@@ -249,10 +249,6 @@ input, select, textarea {
 			box-sizing: border-box;
 		}
 
-		.row.gtr-uniform > * > :last-child {
-			margin-bottom: 0;
-		}
-
 		.row.aln-left {
 			justify-content: flex-start;
 		}
@@ -437,14 +433,6 @@ input, select, textarea {
 				padding: 0 0 0 2em;
 			}
 
-			.row.gtr-uniform {
-				margin-top: -2em;
-			}
-
-				.row.gtr-uniform > * {
-					padding-top: 2em;
-				}
-
 		.row.gtr-150 {
 			margin-top: 0;
 			margin-left: -3em;
@@ -490,10 +478,6 @@ input, select, textarea {
 
 				.row > * {
 					box-sizing: border-box;
-				}
-
-				.row.gtr-uniform > * > :last-child {
-					margin-bottom: 0;
 				}
 
 				.row.aln-left {
@@ -680,14 +664,6 @@ input, select, textarea {
 						padding: 0 0 0 2em;
 					}
 
-					.row.gtr-uniform {
-						margin-top: -2em;
-					}
-
-						.row.gtr-uniform > * {
-							padding-top: 2em;
-						}
-
 				.row.gtr-150 {
 					margin-top: 0;
 					margin-left: -3em;
@@ -736,11 +712,6 @@ input, select, textarea {
 				.row > * {
 					box-sizing: border-box;
 				}
-
-				.row.gtr-uniform > * > :last-child {
-					margin-bottom: 0;
-				}
-
 				.row.aln-left {
 					justify-content: flex-start;
 				}
@@ -925,14 +896,6 @@ input, select, textarea {
 						padding: 0 0 0 1.5em;
 					}
 
-					.row.gtr-uniform {
-						margin-top: -1.5em;
-					}
-
-						.row.gtr-uniform > * {
-							padding-top: 1.5em;
-						}
-
 				.row.gtr-150 {
 					margin-top: 0;
 					margin-left: -2.25em;
@@ -980,10 +943,6 @@ input, select, textarea {
 
 				.row > * {
 					box-sizing: border-box;
-				}
-
-				.row.gtr-uniform > * > :last-child {
-					margin-bottom: 0;
 				}
 
 				.row.aln-left {
@@ -1170,14 +1129,6 @@ input, select, textarea {
 						padding: 0 0 0 1.5em;
 					}
 
-					.row.gtr-uniform {
-						margin-top: -1.5em;
-					}
-
-						.row.gtr-uniform > * {
-							padding-top: 1.5em;
-						}
-
 				.row.gtr-150 {
 					margin-top: 0;
 					margin-left: -2.25em;
@@ -1225,10 +1176,6 @@ input, select, textarea {
 
 				.row > * {
 					box-sizing: border-box;
-				}
-
-				.row.gtr-uniform > * > :last-child {
-					margin-bottom: 0;
 				}
 
 				.row.aln-left {
@@ -1415,14 +1362,6 @@ input, select, textarea {
 						padding: 0 0 0 1.25em;
 					}
 
-					.row.gtr-uniform {
-						margin-top: -1.25em;
-					}
-
-						.row.gtr-uniform > * {
-							padding-top: 1.25em;
-						}
-
 				.row.gtr-150 {
 					margin-top: 0;
 					margin-left: -1.875em;
@@ -1470,10 +1409,6 @@ input, select, textarea {
 
 				.row > * {
 					box-sizing: border-box;
-				}
-
-				.row.gtr-uniform > * > :last-child {
-					margin-bottom: 0;
 				}
 
 				.row.aln-left {
@@ -1659,14 +1594,6 @@ input, select, textarea {
 					.row > * {
 						padding: 0 0 0 1.25em;
 					}
-
-					.row.gtr-uniform {
-						margin-top: -1.25em;
-					}
-
-						.row.gtr-uniform > * {
-							padding-top: 1.25em;
-						}
 
 				.row.gtr-150 {
 					margin-top: 0;
@@ -2208,6 +2135,18 @@ input, select, textarea {
 				border-radius: 0;
 			}
 
+			.image.trauzeuge {
+				border-radius:50%;
+				overflow: hidden;
+			}
+	
+				.image.trauzeuge img {
+					border-radius: 50%;
+					display: block;
+					margin-left: auto;
+					margin-right: auto;
+					width: 70%;
+				}	
 /* List */
 
 	ol {
@@ -2421,6 +2360,7 @@ input, select, textarea {
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
+		color: #ffffff71
 	}
 
 		ul.icons li {
@@ -2740,6 +2680,12 @@ input, select, textarea {
 		}
 
 			#header > header .avatar {
+				display: block;
+				margin: 0 auto 2.25em auto;
+				width: 8em;
+			}
+
+			#header > header .trauzeuge {
 				display: block;
 				margin: 0 auto 2.25em auto;
 				width: 8em;
