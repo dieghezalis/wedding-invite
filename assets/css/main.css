@@ -126,6 +126,12 @@ input, select, textarea {
 			text-decoration: underline;
 		}
 
+		a:visited {
+			color: #98a970;
+			text-decoration: none;
+		  }
+		  
+
 	strong, b {
 		color: #777;
 		font-weight: 700;
