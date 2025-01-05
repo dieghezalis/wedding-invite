@@ -122,16 +122,25 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #98a970 !important;
 			text-decoration: underline;
 		}
 
 		a:visited {
 			color: #98a970;
 			text-decoration: none;
-		  }
-		  
-
+		}
+			
+		a.button {
+			padding: 1px 6px;
+			border: 18px solid buttonborder;
+			border-color: #98a970;
+			border-radius: 50px;
+			color: #ffffff;
+			font-size: 1.25em;
+			background-color: #98a970;
+			text-decoration: none;
+		}
+		
 	strong, b {
 		color: #777;
 		font-weight: 700;
